@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MCComponent_Example' do
+  pod 'MCComponent', :path => '../'
+
+  target 'MCComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
