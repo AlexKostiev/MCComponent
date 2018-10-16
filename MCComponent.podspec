@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCComponent'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Reusable component for demo purposes'
 
 # This description is used to generate tags and improve search results.
@@ -24,11 +24,12 @@ Reusable Component for demo purposes
   s.homepage         = 'https://github.com/AlexKostiev/MCComponent'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AlexKostiev' => 'akostiev@griddynamics.com' }
-  s.source           = { :git => 'https://github.com/AlexKostiev/MCComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AlexKostiev/MCComponent.git', :commit => '' }
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MCComponent/Classes/**/*'
+  s.source_files = 'MCComponent/Classes/*.swift'
+  s.resources = 'MCComponent/Classes/*.xib'
   
   # s.resource_bundles = {
   #   'MCComponent' => ['MCComponent/Assets/*.png']
@@ -36,6 +37,6 @@ Reusable Component for demo purposes
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '4.7.0'
   s.swift_version = '4.0'
 end

@@ -1,15 +1,22 @@
 PODS:
-  - MCComponent (0.1.0)
+  - Alamofire (4.7.0)
+  - MCComponent (0.1.1):
+    - Alamofire (= 4.7.0)
 
 DEPENDENCIES:
   - MCComponent (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 EXTERNAL SOURCES:
   MCComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MCComponent: c7bbdcf7b3a9a4324de885f0046d83ca05899a28
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  MCComponent: 9f99e72aa1924dbbee5ec634aff86709e11c1199
 
 PODFILE CHECKSUM: 401485dfc8b8bede9b22b9a788cfd9262833d6c7
 
