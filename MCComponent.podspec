@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCComponent'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Reusable component for demo purposes'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Reusable Component for demo purposes
   s.homepage         = 'https://github.com/AlexKostiev/MCComponent'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AlexKostiev' => 'akostiev@griddynamics.com' }
-  s.source           = { :git => 'https://github.com/AlexKostiev/MCComponent.git', :commit => '' }
+  s.source           = { :git => 'https://github.com/AlexKostiev/MCComponent.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
@@ -37,6 +37,6 @@ Reusable Component for demo purposes
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'Alamofire', '4.7.0'
+  s.dependency 'Alamofire', '4.7.3'
   s.swift_version = '4.0'
 end
