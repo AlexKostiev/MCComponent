@@ -1,0 +1,30 @@
+{
+  "name": "MCComponent",
+  "version": "0.1.2",
+  "summary": "Reusable component for demo purposes",
+  "description": "Reusable Component for demo purposes",
+  "homepage": "https://github.com/AlexKostiev/MCComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexKostiev": "akostiev@griddynamics.com"
+  },
+  "source": {
+    "git": "https://github.com/AlexKostiev/MCComponent.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MCComponent/Classes/*.swift",
+  "resources": "MCComponent/Classes/*.xib",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "4.7.3"
+    ]
+  },
+  "swift_version": "4.0"
+}
